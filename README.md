@@ -121,14 +121,6 @@ Note that this service is configured as "ClusterIP" since it is not exposed exte
 
 <p>&nbsp;</p>
 
-
-####  3. Testing
-
-The Sample folder contains an example of a C# project that uses the Localization project.
-In it, you can see how the project is used and the tests that have been carried out on it.
-
-<p>&nbsp;</p>
-
 ### **Contribute**
 
 Please refer to each project's style and contribution guidelines for submitting patches and additions. The project uses [gitflow workflow](https://nvie.com/posts/a-successful-git-branching-model/). 
