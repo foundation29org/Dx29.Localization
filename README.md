@@ -60,19 +60,24 @@ The latest release of the project deployed in the [Dx29 application](https://dx2
 
 **CRUD literals**
 >- Get a specific literal in a language
->>- GET request:  ``` api/v1/Localization/literal?key=<key>&lang=<lang> ```
+>>- GET request
+>>- URL: ```http://localhost/api/v1/Localization/literal?key=<key>&lang=<lang> ```
 >>- result: String with the value of the literal in the specified language.
 >- Get all literals for a language
->>- GET request:  ``` api/v1/Localization/literals?&lang=<lang> ```
+>>- GET request
+>>- URL: ```http://localhost/api/v1/Localization/literals?&lang=<lang> ```
 >>- result: Dictionary with literals keys and values for the specified language.
 >- Delete a literal translation.
->>- DELETE request:  ``` api/v1/Localization/literals?key=<key>&lang=<lang> ```
+>>- DELETE request
+>>- URL: ```http://localhost/api/v1/Localization/literals?key=<key>&lang=<lang> ```
 >>>- Result request: Ok if all is ok, or bad request if any error occurs.
 >- Update a literal translation.
->>- PUT request:  ``` api/v1/Localization/literals?literal=<Dictionary with key and previous value>&lang=<lang> ```
+>>- PUT request
+>>- URL: ```http://localhost/api/v1/Localization/literals?literal=<Dictionary with key and previous value>&lang=<lang> ```
 >>>- Result request: Ok if all is ok, or bad request if any error occurs.
 >- Save new literal in specific language.
->>- PUT request:  ``` api/v1/Localization/register?literal=<Dictionary with key and value>&lang=<lang> ```
+>>- PUT request
+>>- URL: ```http://localhost/api/v1/Localization/register?literal=<Dictionary with key and value>&lang=<lang> ```
 >>>- Result request: Ok if all is ok, or bad request if any error occurs.
 
 <p>&nbsp;</p>
