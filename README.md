@@ -44,7 +44,7 @@ This project doesn’t need any dependency but it accesses the blob. In addition
 
 ####  2. Download and installation
 
-DDownload the repository code with `git clone` or use download button.
+Download the repository code with `git clone` or use download button.
 
 We use [Visual Studio 2019](https://docs.microsoft.com/en-GB/visualstudio/ide/quickstart-aspnet-core?view=vs-2022) for working with this project.
 
