@@ -36,7 +36,6 @@ This project doesn’t need any dependency but it accesses the blob. In addition
 |  Key                 | Value               |		                                                                                |
 |----------------------|---------------------|--------------------------------------------------------------------------------------|
 | ConnectionStrings    | BlobStorage         |Blob endpoint and credentials                                                         |
-| ConnectionStrings    | BlobStorage         |Blob endpoint and credentials                                                         |
 | CognitiveServices    | Endpoint            |Endpoint Azure cognitive service configured                                           |
 | CognitiveServices    | Authorization       |Authorization key                                                                     |
 | CognitiveServices    | Region              |Azure cognitive service region configured                                             |
